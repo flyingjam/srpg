@@ -24,6 +24,8 @@ repositories {
 }
 dependencies {
     compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+    compile "org.json:json:20160212"
+    compile "org.luaj:luaj-jse:3.0.1"
 }
 sourceSets {
     main.java.srcDirs += 'src/main/kotlin'
